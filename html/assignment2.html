@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>Assignment 2</title>
+     <script src="jquery-1.11.3.js"></script>
+	<link rel="stylesheet" href="styles.css">
+      <style>
+		 canvas{
+		     margin: 20px;
+         padding: 0px;
+		 }
+		 .canvas {
+            background: #ffffff;
+         }
+      </style>
+   </head>
+
+  <body style="text-align:center;">
+    <br /><br /><br /><br /><br /><br />
+  <img src="title.png" />
+  <div id="boxContainer">
+    <canvas id='canvas' class='canvas' width="1000" height="500">
+      Canvas not supported
+    </canvas>
+    <br />
+    <div id='users'></div>
+    <input id='blueBox' type='button' onclick='blueSelection()' value='Blue'>
+    <input id='redBox' type='button' onclick='redSelection()' value='Red'>
+    <input id='yellowBox' type='button' onclick='yellowSelection()' value='Yellow'>
+
+    <script src='canvas.js'></script>
+	</div>
+  </body>
+</html>
